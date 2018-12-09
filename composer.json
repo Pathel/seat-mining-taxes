@@ -1,0 +1,31 @@
+{
+	"name": "pathel/seat-mining-taxes",
+	"description": "SeAT module for the levying of taxes against corporation moon mining ledger entries.",
+	"type": "seat-plugin",
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Dustin Jones",
+			"email": "QuarQuar@gmail.com"
+		}
+	],
+    "autoload": {
+        "psr-4": {
+            "Pathel\\Seat\\MoonMiningTaxes\\": "src/"
+        }
+    },	
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pathel\\Seat\\MoonMiningTaxes\\MoonMiningTaxesServiceProvider"
+            ]
+        }
+    },	
+	"minimum-sability": "stable",
+    "require": {
+    	// Need SeAT 3.0 or higher.
+        "eveseat/services": "^3.0",
+        "eveseat/eveapi": "^3.0",
+        "eveseat/web": "^3.0"
+    }	
+}
