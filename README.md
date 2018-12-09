@@ -10,7 +10,9 @@ Currently, many groups in EVE tax moon mining for their moons via a workflow tha
 * Issue taxes; usually via the mailing of some spreadsheet that is the product of the above steps
 * Then, each person has to pay taxes; unless another lookup table is used linking groups of characters to players, each player has to handle all their characters' taxes individually.
 
-Madness!  If you have a SeAT installation that's up and pulling all those corporation mining ledger entries, it already holds all the data necessary to make these calculations on its own and present 'invoices' to issue for the payment.  With access to the characters' wallet journal entries, we can even tell if they've paid or not.
+Madness!  
+
+If you have a SeAT installation that's up and pulling all those corporation mining ledger entries, it already holds all the data necessary to make these calculations on its own and present 'invoices' to issue for the payment.  It also knows all your alts, allowing you to be shown taxes for all your toons.  With access to the characters' wallet journal entries, we can even tell if they've been paid or not.
 
 This plugin aims to make this kind of automation a reality and let all the industry managers of eve get back to playing eve.
 
