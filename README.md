@@ -29,7 +29,7 @@ First, bring the running system down to maintenance mode:
 
 Now, using composer, specify seat-mining-ledger as a required package:
 
-`composer require pathel/seat-fitting`
+`composer require pathel/seat-mining-taxes`
 
 Publish assets and run the migration:
 
