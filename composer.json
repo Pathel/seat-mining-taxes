@@ -21,7 +21,7 @@
             ]
         }
     },	
-	"minimum-sability": "stable",
+	"minimum-stability": "stable",
     "require": {
         "eveseat/services": "^3.0",
         "eveseat/eveapi": "^3.0",
