@@ -19,5 +19,29 @@ This plugin aims to make this kind of automation a reality and let all the indus
 ## Guides
 More here as codebase solidifies.
 
+### Installation
+
+Navigate to your SeAT installation directory.  Normally if you've set SeAT up using the setup/deployment script, this is `/var/www/seat`.  If you have a docker-based deployment, you'll have to open up a shell with `docker exec` on the seat-app container to run these commands.
+
+First, bring the running system down to maintenance mode:
+
+`php artisan down`
+
+Now, using composer, specify seat-mining-ledger as a required package:
+
+`composer require pathel/seat-fitting`
+
+Publish assets and run the migration:
+
+`php artisan vendor:publish --force --all`
+
+`php artisan migrate`
+
+And bring the SeAT installation up out of maintenance mode:
+
+`php artisan up`
+
+At this point, you should be good to begin setup of the plugin within SeAT.
+
 ## Current Status
-Not in a usable state yet.
+Still very early in development, so not in a usable state yet.
