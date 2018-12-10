@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/dysath/seat-fitting.svg?style=flat-square)](https://travis-ci.org/pathel/seat-mining-taxes)
 [![Latest Stable Version](https://img.shields.io/packagist/v/pathel/seat-mining-taxes.svg?style=flat-square)]()
 [![Latest Prerelease Version](https://img.shields.io/packagist/vpre/pathel/seat-mining-taxes.svg)]()
-[![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Pathel/seat-mining-taxes/master/README.md)]
+[![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Pathel/seat-mining-taxes/master/README.md)
 
 This is a SeAT plugin written to levy taxes against entries in the moon mining ledger.
 
