@@ -1,5 +1,7 @@
 # SeAT Mining Taxes
 
+[![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Pathel/seat-mining-taxes/master/README.md)
+
 This is a SeAT plugin written to levy taxes against entries in the moon mining ledger.
 
 Currently, many groups in EVE tax moon mining for their moons via a workflow that looks something like this:
